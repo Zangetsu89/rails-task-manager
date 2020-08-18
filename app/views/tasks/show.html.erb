@@ -1,0 +1,18 @@
+<div class="show">
+  <h1><%= @task.title.capitalize%></h1>
+<div class="form">
+  <%= form_for @task do |f| %>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+    <%= f.label :details %>
+    <%= f.text_field :details %>
+    <%= f.label :completed %>
+    <%= f.check_box :completed %>
+    <%= f.submit( class: "submit") %>
+  <% end %>
+</div>
+<br>
+<div class="link">
+  <button><%= link_to "Back to all the Tasks", tasks_path %></button>
+</div>
+</div>

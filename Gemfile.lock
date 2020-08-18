@@ -129,6 +129,7 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.3.0)
       loofah (~> 2.3)
+    rails-pry (0.0.1)
     railties (6.0.3.2)
       actionpack (= 6.0.3.2)
       activesupport (= 6.0.3.2)
@@ -205,6 +206,7 @@ DEPENDENCIES
   listen (~> 3.2)
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.2)
+  rails-pry
   sass-rails (>= 6)
   selenium-webdriver
   spring
